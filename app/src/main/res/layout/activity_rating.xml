@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rating">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="59dp"
+            android:gravity="center"
+            android:text="Rate service provider"
+            android:textAllCaps="false"
+            android:textColor="#E0115F"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <EditText
+            android:id="@+id/etServiceProviderName"
+            android:layout_width="278dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:background="@drawable/white_edittext"
+            android:gravity="center"
+            android:hint="Service Provider Name"
+            android:textColor="#E0115F"
+            android:textColorHint="#E0115F" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <EditText
+            android:id="@+id/etComment"
+            android:layout_width="278dp"
+            android:layout_height="100dp"
+            android:textColor="#E0115F"
+            android:layout_gravity="center"
+            android:background="@drawable/white_edittext"
+            android:gravity="center"
+            android:hint="Comment"
+            android:textColorHint="#E0115F" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btnRate"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#E0115F"
+            android:onClick="btnRate"
+            android:text="RATE SERVICE PROVIDER" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+
+    </LinearLayout>
+
+</android.widget.RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">396729282394-mcosjpq6uemfd1tlcimbfcne333fkbht.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://groupdqet.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">396729282394</string>
+    <string name="google_api_key" translatable="false">AIzaSyBXyKKH_7ukz61Uu5xYENoeahjsnpM7d2s</string>
+    <string name="google_app_id" translatable="false">1:396729282394:android:bc2b6df409f2dd7f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBXyKKH_7ukz61Uu5xYENoeahjsnpM7d2s</string>
+    <string name="google_storage_bucket" translatable="false">groupdqet.appspot.com</string>
+    <string name="project_id" translatable="false">groupdqet</string>
+</resources>

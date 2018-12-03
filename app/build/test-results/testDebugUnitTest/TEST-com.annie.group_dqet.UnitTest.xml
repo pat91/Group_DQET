@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.annie.group_dqet.UnitTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2018-12-03T00:12:18" hostname="patrick-Inspiron-5559" time="0.008">
+  <properties/>
+  <testcase name="checkUserType" classname="com.annie.group_dqet.UnitTest" time="0.002"/>
+  <testcase name="checkUsername" classname="com.annie.group_dqet.UnitTest" time="0.0"/>
+  <testcase name="checkServiceAmount" classname="com.annie.group_dqet.UnitTest" time="0.001"/>
+  <testcase name="checkCompanyName" classname="com.annie.group_dqet.UnitTest" time="0.001"/>
+  <testcase name="checkUserLicence" classname="com.annie.group_dqet.UnitTest" time="0.001"/>
+  <testcase name="checkUserDescription" classname="com.annie.group_dqet.UnitTest" time="0.0"/>
+  <testcase name="checkUserPhoneNumber" classname="com.annie.group_dqet.UnitTest" time="0.0"/>
+  <testcase name="checkServiceName" classname="com.annie.group_dqet.UnitTest" time="0.001"/>
+  <testcase name="checkUserAddress" classname="com.annie.group_dqet.UnitTest" time="0.0"/>
+  <testcase name="checkUserPassword" classname="com.annie.group_dqet.UnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

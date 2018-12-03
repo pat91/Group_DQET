@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#000000">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:gravity="center"
+            android:text="Bienvenu admin! Vous avez une session en tant que admin."
+            android:textColor="#E0115F"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/etUserList"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+
+
+
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#E0115F"
+            android:text="create service"
+            android:onClick="createService"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#E0115F"
+            android:text="delete service"
+            android:onClick="deleteService"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#E0115F"
+            android:text="edit service"
+            android:onClick="editService"/>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#E0115F"
+            android:text="View all services"
+            android:onClick="viewAllServices"/>
+
+
+
+    </LinearLayout>
+</android.widget.RelativeLayout>

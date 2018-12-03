@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteServiceSP">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#000000">
+
+        <EditText
+            android:id="@+id/serviceNameSP"
+            android:layout_width="278dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="center"
+            android:hint="service name"
+            android:textColor="#fff"
+            android:textColorHint="#E0115F" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#E0115F"
+            android:text="delete service"
+            android:onClick="deleteServiceSP"/>
+
+
+
+    </LinearLayout>
+</android.widget.RelativeLayout>
