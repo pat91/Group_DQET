@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/patrick/Desktop/Group_DQET/Group_DQET/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
+            "outputFile": "/home/patrick/Desktop/local/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "/home/patrick/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fd125b20007b8eca2f65e18be17554ac/res/values-ms/values-ms.xml",

@@ -5,9 +5,7 @@ Dounia Mansouri, 300011232
 
 #Starts Here
 Build Status
-[![Build
-Status](https://circleci.com/gh/SEG2105F18/ProductCatalog.png?branch=master)](https://circle
-ci.com/gh/SEG2105F18/ProductCatalog)
+[![Build Status](https://circleci.com/gh/pat91/Group_DQET.png?branch=master)](https://circleci.com/gh/pat91/Group_DQET)
 #Ends Here
 
 

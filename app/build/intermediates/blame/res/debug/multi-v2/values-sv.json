@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/patrick/Desktop/Group_DQET/Group_DQET/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/home/patrick/Desktop/local/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/home/patrick/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e79a7aa003a3882915b5aaeb43005520/res/values-sv/values.xml",

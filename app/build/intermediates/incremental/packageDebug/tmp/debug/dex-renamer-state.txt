@@ -1,7 +1,7 @@
-#Sun Dec 02 18:54:47 EST 2018
-base.0=/home/patrick/Desktop/Group_DQET/Group_DQET/app/build/intermediates/transforms/dexMerger/debug/0
+#Sun Dec 02 20:48:06 EST 2018
+base.0=/home/patrick/Desktop/local/app/build/intermediates/transforms/dexMerger/debug/1
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/patrick/Desktop/Group_DQET/Group_DQET/app/build/intermediates/transforms/dexMerger/debug/1
+base.1=/home/patrick/Desktop/local/app/build/intermediates/transforms/dexMerger/debug/0
